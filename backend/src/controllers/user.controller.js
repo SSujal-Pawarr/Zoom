@@ -36,6 +36,7 @@ const login = async (req, res) => {
 }
 
 const register = async (req, res) => {
+    
     const { name, username, password } = req.body;
 
     try {
@@ -63,7 +64,7 @@ const register = async (req, res) => {
 }
 
 const getUserHistory = async (req, res) => {
-    
+
     const { token } = req.query;
 
     try {
