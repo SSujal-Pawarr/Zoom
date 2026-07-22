@@ -63,6 +63,7 @@ const register = async (req, res) => {
 }
 
 const getUserHistory = async (req, res) => {
+    
     const { token } = req.query;
 
     try {
@@ -75,7 +76,7 @@ const getUserHistory = async (req, res) => {
 }
 
 const addToHistory = async (req, res) => {
-    
+
     const { token, meeting_code } = req.body;
 
     try {
