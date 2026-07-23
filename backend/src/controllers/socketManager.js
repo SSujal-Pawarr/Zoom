@@ -5,7 +5,7 @@ let messages = {}
 let timeOnline = {}
 
 export const connectToSocket = (server) => {
-    
+
     const io = new Server(server, {
         cors: {
             origin: "*",
@@ -14,7 +14,6 @@ export const connectToSocket = (server) => {
             credentials: true
         }
     });
-
 
     io.on("connection", (socket) => {
 
