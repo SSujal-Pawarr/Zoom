@@ -15,7 +15,6 @@ export const connectToSocket = (server) => {
         }
     });
 
-    
     io.on("connection", (socket) => {
 
         console.log("SOMETHING CONNECTED")
