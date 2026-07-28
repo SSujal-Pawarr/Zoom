@@ -10,7 +10,7 @@ import History from './pages/history';
 function App() {
 
   return (
-    
+
     <div className="App">
 
       <Router>
@@ -30,6 +30,7 @@ function App() {
 
       </Router>
     </div>
+    
   );
 }
 
