@@ -14,7 +14,6 @@ export const AuthProvider = ({ children }) => {
 
     const authContext = useContext(AuthContext);
 
-
     const [userData, setUserData] = useState(authContext);
 
 
