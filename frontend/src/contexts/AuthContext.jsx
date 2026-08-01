@@ -26,7 +26,6 @@ export const AuthProvider = ({ children }) => {
                 password: password
             })
 
-
             if (request.status === httpStatus.CREATED) {
                 return request.data.message;
             }
