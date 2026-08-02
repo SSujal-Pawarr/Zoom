@@ -46,7 +46,6 @@ function HomeComponent() {
 
             </div>
 
-
             <div className="meetContainer">
                 <div className="leftPanel">
                     <div>
