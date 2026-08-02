@@ -8,7 +8,6 @@ import { AuthContext } from '../contexts/AuthContext';
 
 function HomeComponent() {
 
-
     let navigate = useNavigate();
     const [meetingCode, setMeetingCode] = useState("");
 
