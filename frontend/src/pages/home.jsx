@@ -57,6 +57,7 @@ function HomeComponent() {
                             <Button onClick={handleJoinVideoCall} variant='contained'>Join</Button>
 
                         </div>
+                        
                     </div>
                 </div>
                 <div className='rightPanel'>
