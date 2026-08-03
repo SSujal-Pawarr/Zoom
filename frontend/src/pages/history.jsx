@@ -59,7 +59,7 @@ export default function History() {
                             <Card key={i} variant="outlined">
 
                                 <CardContent>
-                                    
+
                                     <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                                         Code: {e.meetingCode}
                                     </Typography>
@@ -69,7 +69,6 @@ export default function History() {
                                     </Typography>
 
                                 </CardContent>
-
 
                             </Card>
 
