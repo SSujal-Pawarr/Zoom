@@ -56,7 +56,6 @@ export default function History() {
 
                         <>
 
-
                             <Card key={i} variant="outlined">
 
 
