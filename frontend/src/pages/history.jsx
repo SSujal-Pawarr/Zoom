@@ -16,7 +16,6 @@ export default function History() {
 
     const [meetings, setMeetings] = useState([])
 
-
     const routeTo = useNavigate();
 
     useEffect(() => {
