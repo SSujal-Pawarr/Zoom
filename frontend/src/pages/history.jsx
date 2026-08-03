@@ -59,6 +59,7 @@ export default function History() {
                             <Card key={i} variant="outlined">
 
                                 <CardContent>
+                                    
                                     <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                                         Code: {e.meetingCode}
                                     </Typography>
