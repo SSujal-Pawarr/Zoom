@@ -14,9 +14,7 @@ import ChatIcon from '@mui/icons-material/Chat'
 import server from '../environment';
 
 const server_url = server;
-
 var connections = {};
-
 const peerConfigConnections = {
     "iceServers": [
         { "urls": "stun:stun.l.google.com:19302" }
