@@ -28,7 +28,6 @@ export default function LandingPage() {
                 </div>
             </nav>
 
-
             <div className="landingMainContainer">
                 <div>
                     <h1><span style={{ color: "#FF9839" }}>Connect</span> with your loved Ones</h1>
