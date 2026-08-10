@@ -43,6 +43,18 @@ export default function History() {
     }
 
     return (
-      
+        <div>
+
+            <IconButton onClick={() => {
+                routeTo("/home")
+            }}>
+                <HomeIcon />
+            </IconButton >
+           
+                }) : <></>
+
+            }
+
+        </div>
     )
 }
