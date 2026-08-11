@@ -21,6 +21,7 @@ export const AuthProvider = ({ children }) => {
     const handleRegister = async (name, username, password) => {
       
         try {
+            
             let request = await client.post("/register", {
                 name: name,
                 username: username,
@@ -30,7 +31,7 @@ export const AuthProvider = ({ children }) => {
             if (request.status === httpStatus.CREATED) {
                 return request.data.message;
             }
-            
+
         } catch (err) {
             throw err;
         }
