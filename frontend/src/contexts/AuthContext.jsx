@@ -30,6 +30,7 @@ export const AuthProvider = ({ children }) => {
             if (request.status === httpStatus.CREATED) {
                 return request.data.message;
             }
+            
         } catch (err) {
             throw err;
         }
