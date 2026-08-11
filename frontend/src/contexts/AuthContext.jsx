@@ -21,7 +21,7 @@ export const AuthProvider = ({ children }) => {
     const handleRegister = async (name, username, password) => {
       
         try {
-            
+
             let request = await client.post("/register", {
                 name: name,
                 username: username,
@@ -57,6 +57,7 @@ export const AuthProvider = ({ children }) => {
     }
 
     const getHistoryOfUser = async () => {
+        
         try {
             let request = await client.get("/get_all_activity", {
                 params: {
