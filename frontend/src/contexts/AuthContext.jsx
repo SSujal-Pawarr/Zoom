@@ -38,6 +38,7 @@ export const AuthProvider = ({ children }) => {
     }
 
     const handleLogin = async (username, password) => {
+        
         try {
             let request = await client.post("/login", {
                 username: username,
@@ -59,7 +60,7 @@ export const AuthProvider = ({ children }) => {
     const getHistoryOfUser = async () => {
         
         try {
-            
+
             let request = await client.get("/get_all_activity", {
                 params: {
                     token: localStorage.getItem("token")
