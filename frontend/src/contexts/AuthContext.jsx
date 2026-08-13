@@ -87,6 +87,16 @@ export const AuthProvider = ({ children }) => {
         }
     }
 
+    const data = {
+        
+        userData, setUserData, addToUserHistory, getHistoryOfUser, handleRegister, handleLogin
     
+    }
+
+    return (
+        <AuthContext.Provider value={data}>
+            {children}
+        </AuthContext.Provider>
+    )
 
 }
