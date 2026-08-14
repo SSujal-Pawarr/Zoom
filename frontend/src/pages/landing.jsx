@@ -37,14 +37,14 @@ export default function LandingPage() {
                         <Link to={"/auth"}>Get Started</Link>
                     </div>
                 </div>
-                
+
                 <div>
 
                     <img src="/mobile.png" alt="" />
 
                 </div>
+                
             </div>
-
 
         </div>
     )
