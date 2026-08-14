@@ -19,6 +19,7 @@ export default function History() {
     const routeTo = useNavigate();
 
     useEffect(() => {
+        
         const fetchHistory = async () => {
             try {
                 const history = await getHistoryOfUser();
